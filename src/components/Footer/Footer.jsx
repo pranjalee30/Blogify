@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaXTwitter, FaLinkedinIn, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa6";
+import { IoMailUnreadOutline } from "react-icons/io5";
 import Logo from '../Logo'
 
 const Footer = () => {
@@ -20,47 +22,47 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="w-full p-6 md:w-1/2 lg:w-2/12">
+                    <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
                             <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
-                                Company
+                                Company Social
                             </h3>
                             <ul>
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="https://github.com/pranjalee30"
                                     >
-                                        Features
+                                        <FaGithub/>
                                     </Link>
                                 </li>
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="https://www.instagram.com/_luminous_dreamer_/"
                                     >
-                                        Pricing
+                                        <FaInstagram/>
                                     </Link>
                                 </li>
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="https://x.com/pranjalk449"
                                     >
-                                        Affiliate Program
+                                        <FaTwitter/>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="https://www.linkedin.com/in/pranjal-kumar-184913228/"
                                     >
-                                        Press Kit
+                                        <FaLinkedinIn/>
                                     </Link>
                                 </li>
                             </ul>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
                             <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
@@ -86,7 +88,7 @@ const Footer = () => {
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
+                                        to="mailto:pranjalk449@gmail.com"
                                     >
                                         Contact Us
                                     </Link>
