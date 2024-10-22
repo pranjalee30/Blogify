@@ -124,12 +124,18 @@ export class Service{
         }
     }
 
-    getFilePreview(fileId){
-        return this.bucket.getFilePreview(
-            conf.appwriteBucketId,
-            fileId
-        )
-    }
+    getFilePreview(fileId) {
+        try {
+            const response = this.bucket.getFilePreview(
+                conf.appwriteBucketId,
+                fileId
+            );
+            return response;
+        } catch (error) {
+            console.error("Appwrite service :: getFilePreview :: error", error);
+            return null;
+        }
+    }   
 }
 
 
