@@ -19,6 +19,7 @@ export default function RTE({ name, control, label, defaultValue = "", isReadOnl
             init={{
               height: 500,
               menubar: true,
+              selector: 'textarea#editable',
               plugins: [
                 "image",
                 "advlist",
