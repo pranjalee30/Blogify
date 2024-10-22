@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaXTwitter, FaLinkedinIn, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa6";
-import { IoMailUnreadOutline } from "react-icons/io5";
+import { FaXTwitter, FaLinkedinIn, FaInstagram,  FaGithub } from "react-icons/fa6";
 import Logo from '../Logo'
 
 const Footer = () => {
@@ -40,7 +39,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link className="text-3xl text-gray-900 hover:text-gray-700" to="https://x.com/pranjalk449">
-                                        <FaTwitter />
+                                        <FaXTwitter />
                                     </Link>
                                 </li>
                                 <li>
