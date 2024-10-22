@@ -6,8 +6,8 @@ import Logo from '../Logo'
 
 const Footer = () => {
     const cur = new Date(Date.now()).getFullYear();
-  return (
-    <section className="relative overflow-hidden py-10 bg-gray-400 border border-t-2 border-t-black">
+    return (
+        <section className="relative overflow-hidden py-10 bg-gray-400 border border-t-2 border-t-black">
             <div className="relative z-10 mx-auto max-w-7xl px-4">
                 <div className="-m-6 flex flex-wrap">
                     <div className="w-full p-6 md:w-1/2 lg:w-5/12">
@@ -24,80 +24,57 @@ const Footer = () => {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9 text-xs font-semibold uppercase text-gray-500">
                                 Company Social
                             </h3>
-                            <ul>
-                                <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="https://github.com/pranjalee30"
-                                    >
-                                        <FaGithub/>
-                                    </Link>
-                                </li>
-                                <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="https://www.instagram.com/_luminous_dreamer_/"
-                                    >
-                                        <FaInstagram/>
-                                    </Link>
-                                </li>
-                                <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="https://x.com/pranjalk449"
-                                    >
-                                        <FaTwitter/>
+                            <ul className="flex justify-center space-x-4"> {/* Centering the icons and adding spacing */}
+                                <li>
+                                    <Link className="text-3xl text-gray-900 hover:text-gray-700" to="https://github.com/pranjalee30">
+                                        <FaGithub />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="https://www.linkedin.com/in/pranjal-kumar-184913228/"
-                                    >
-                                        <FaLinkedinIn/>
+                                    <Link className="text-3xl text-gray-900 hover:text-gray-700" to="https://www.instagram.com/_luminous_dreamer_/">
+                                        <FaInstagram />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="text-3xl text-gray-900 hover:text-gray-700" to="https://x.com/pranjalk449">
+                                        <FaTwitter />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="text-3xl text-gray-900 hover:text-gray-700" to="https://www.linkedin.com/in/pranjal-kumar-184913228/">
+                                        <FaLinkedinIn />
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
+                    {/* Other sections remain unchanged */}
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9 text-xs font-semibold uppercase text-gray-500">
                                 Support
                             </h3>
                             <ul>
                                 <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
                                         Account
                                     </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
                                         Help
                                     </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="mailto:pranjalk449@gmail.com"
-                                    >
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="mailto:pranjalk449@gmail.com">
                                         Contact Us
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
                                         Customer Support
                                     </Link>
                                 </li>
@@ -106,31 +83,22 @@ const Footer = () => {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-3/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9 text-xs font-semibold uppercase text-gray-500">
                                 Legals
                             </h3>
                             <ul>
                                 <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
                                         Licensing
                                     </Link>
                                 </li>
@@ -140,7 +108,7 @@ const Footer = () => {
                 </div>
             </div>
         </section>
-  )
+    )
 }
 
 export default Footer
