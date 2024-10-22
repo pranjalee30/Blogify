@@ -19,7 +19,7 @@ export default function RTE({ name, control, label, defaultValue = "", readOnly 
             init={{
               height: 500,
               menubar: true,
-              readonly: readOnly, 
+              isReadOnly: readOnly, 
               plugins: [
                 "image",
                 "advlist",
