@@ -1,25 +1,72 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Node.js
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+.env
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+*.coverage
+*.log
+*.sqlite3
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-12MegaBlog/.env
+
+# Build files
+*.out
+*.o
+*.a
+*.so
+*.dylib
+
+# Image files (you may want to ignore generated image files)
+*.png
+*.jpg
+*.jpeg
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# React and Angular
+/build/
+node_modules/
+public/assets/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Others
+# Add your custom files or directories to ignore
